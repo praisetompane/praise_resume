@@ -1,3 +1,7 @@
+# praise_resume
+
+![build status](https://github.com/praisetompane/praise_resume/actions/workflows/praise_resume.yaml/badge.svg) <br>
+
 # build
 ```shell
 # from root directory

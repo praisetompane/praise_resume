@@ -186,3 +186,6 @@ skilltypestyle
 headerquotestyle
 
 Resumé
+Jira
+svg
+yaml
