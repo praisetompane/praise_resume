@@ -3,15 +3,19 @@
 ![build status](https://github.com/praisetompane/praise_resume/actions/workflows/praise_resume.yaml/badge.svg) <br>
 
 # build
+
 ```shell
-# from root directory
-make praise_tompane_resume
+pipenv shell
+```
+
+```shell
+make
 ```
 
 # dependencies
 TexLive
 
 
-# References:
+# references:
 * posquit0. Awesome-CV. https://github.com/posquit0/Awesome-CV
 
