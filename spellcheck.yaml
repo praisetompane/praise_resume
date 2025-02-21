@@ -1,5 +1,5 @@
 matrix:
-  - name: Markdown
+  - name: English
     aspell:
       lang: en
       ignore-case: true

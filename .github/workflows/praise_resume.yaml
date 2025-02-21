@@ -15,7 +15,7 @@ jobs:
     - name: spell check
       uses: rojopolis/spellcheck-github-actions@0.34.0
       with:                                        
-        task_name: Markdown
+        task_name: English
         output_file: spellcheck-output.txt
   build:
     needs: [test]

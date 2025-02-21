@@ -5,14 +5,18 @@ Miyata
 # concepts:
 collaging
 
+
 # institutions:
 quora
 freecodecamp
+
 
 # technology
 dev
 devcontainers
 visualstudio
+pyspelling
+
 
 # url
 conventionalcommits
@@ -20,6 +24,10 @@ conventionalcommits
 # domain specific
 paragraphstyle
 
+# domain specific
+paragraphstyle
+
+# legacy
 personal_ws-1.1 en 145
 APIs
 Abelian

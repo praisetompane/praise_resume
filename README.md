@@ -7,6 +7,9 @@
 - The repository is configured to use [devcontainers](https://containers.dev) for development.
     - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 
+## Dependencies:
+TexLive
+
 ## Build:
 
 ```shell
@@ -17,24 +20,30 @@ pipenv shell
 make
 ```
 
-## Dependencies:
-TexLive
+## Spell Check:
+```shell
+pipenv shell
+```
+
+```shell
+pyspelling -c spellcheck.yaml
+```
 
 ## Proficiency Definitions:
-- ## Familiar: 
-    - Have a basic understanding of what the language/platform/tool is doing.
-    - Can make things work by collaging code snippets together from Stack Overflow and other external references.
+- ## Low Proficiency: 
+    - Have a basic understanding of how the language/platform/tool/concept/concept works.
+    - Can make things work by collaging code snippets together from external references such as Stack Overflow, Tutorials, etc.
 
-- ## Proficient: 
-    - Have a good understanding of what the language/platform/tool is doing.
-    - Can make things work with Occasional reference to Stack Overflow and external references.
+- ## Medium Proficiency: 
+    - Have a good understanding of what how language/platform/tool/concept works.
+    - Can make things work with reference to documentation and external references such as Stack Overflow, Tutorials, etc.
 
-- ## Excellent: 
-    - Have a very good understanding of what the language/platform/tool is doing.
-    - Can use language/platform/tool without Stack Overflow and minimal reference to documentation.
+- ## High Proficiency: 
+    - Have a very good understanding of how the language/platform/tool/concept works.
+    - Can use language/platform/tool/concept with minimal reference to documentation and external references such as Stack Overflow, Tutorials, etc common use cases.
 
-- ## Expert: 
-    - Have an understanding of the internals of the language/platform/tool.
+- ## Expert Proficiency: 
+    - Have an understanding of the internals of the language/platform/tool/concept.
     - Example:
         - For Java, expert should understand internals of Java to the point they can read Java code and translate it to byte-code in his head.
 
