@@ -40,7 +40,7 @@ pyspelling -c spellcheck.yaml
 
 - ## High Proficiency: 
     - Have a very good understanding of how the language/platform/tool/concept works.
-    - Can use language/platform/tool/concept with minimal reference to documentation and external references such as Stack Overflow, Tutorials, etc common use cases.
+    - Can use the language/platform/tool/concept for common use cases with minimal reference to documentation and external references such as Stack Overflow, Tutorials, etc.
 
 - ## Expert Proficiency: 
     - Have an understanding of the internals of the language/platform/tool/concept.

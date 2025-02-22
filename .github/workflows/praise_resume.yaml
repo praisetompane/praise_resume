@@ -7,30 +7,24 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: check out repo
+    - name: Check Repository
       uses: actions/checkout@v4
-    - name: spell check
+    - name: Spell Check
       uses: rojopolis/spellcheck-github-actions@0.34.0
-      with:                                        
+      with:
         task_name: English
         output_file: spellcheck-output.txt
-  build:
-    needs: [test]
-    runs-on: ubuntu-latest
-    steps:
-    - name: check out repo
-      uses: actions/checkout@v4
     - name: build resume
       uses: docker://ghcr.io/qjoly/xelatex:latest
       with:
         args: |
           praise_tompane_resume.tex
-    - name: setup release folder
+    - name: Setup Release Folder
       run: mkdir -p ./release && cp praise_tompane_resume.pdf ./release
-    - name: publish document
+    - name: Publish Document
       uses: actions/upload-artifact@v4
       with:
         name: praise_tompane_resume.pdf
