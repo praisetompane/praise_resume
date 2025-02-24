@@ -30,19 +30,19 @@ pyspelling -c spellcheck.yaml
 ```
 
 ## Proficiency Definitions:
-- ## Low Proficiency: 
+- ## Low Proficiency:
     - Have a basic understanding of how the language/platform/tool/concept/concept works.
     - Can make things work by collaging code snippets together from external references such as Stack Overflow, Tutorials, etc.
 
-- ## Medium Proficiency: 
+- ## Medium Proficiency:
     - Have a good understanding of what how language/platform/tool/concept works.
-    - Can make things work with reference to documentation and external references such as Stack Overflow, Tutorials, etc.
+    - Can use the language/platform/tool/concept reference to documentation and external references such as Stack Overflow, Tutorials, etc.
 
-- ## High Proficiency: 
-    - Have a very good understanding of how the language/platform/tool/concept works.
+- ## High Proficiency:
+    - Have a good understanding of how the language/platform/tool/concept works.
     - Can use the language/platform/tool/concept for common use cases with minimal reference to documentation and external references such as Stack Overflow, Tutorials, etc.
 
-- ## Expert Proficiency: 
+- ## Expert Proficiency:
     - Have an understanding of the internals of the language/platform/tool/concept.
     - Example:
         - For Java, expert should understand internals of Java to the point they can read Java code and translate it to byte-code in his head.
@@ -63,4 +63,3 @@ pyspelling -c spellcheck.yaml
 - Miyata, Y. [Fluency in a programming language](https://www.quora.com/What-level-of-fluency-in-a-programming-language-do-you-associate-with-labels-like-proficient-rudimentary-and-the-like)
 
 - posquit0. Awesome-CV. https://github.com/posquit0/Awesome-CV
-
