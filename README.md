@@ -1,33 +1,8 @@
 # praise_resume
-
 ![build status](https://github.com/praisetompane/praise_resume/actions/workflows/praise_resume.yaml/badge.svg) <br>
 
-## Setup Instructions:
-- Install [Docker](https://docs.docker.com/get-started/)
-- The repository is configured to use [devcontainers](https://containers.dev) for development.
-    - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
-
-## Dependencies:
-TexLive
-
-## Build:
-
-```shell
-pipenv shell
-```
-
-```shell
-make
-```
-
-## Spell Check:
-```shell
-pipenv shell
-```
-
-```shell
-pyspelling -c spellcheck.yaml
-```
+## Objectives
+- Reusable and automated build of resume for consistency.
 
 ## Proficiency Definitions:
 - ## Low Proficiency:
@@ -46,6 +21,33 @@ pyspelling -c spellcheck.yaml
     - Have an understanding of the internals of the language/platform/tool/concept.
     - Example:
         - For Java, expert should understand internals of Java to the point they can read Java code and translate it to byte-code in his head.
+
+## Dependencies
+TexLive
+
+## Setup Instructions
+- Install [Docker](https://docs.docker.com/get-started/)
+- The repository is configured to use [devcontainers](https://containers.dev) for development.
+    - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
+
+## Run Program
+
+```shell
+pipenv shell
+```
+
+```shell
+make
+```
+
+## Spell Check
+```shell
+pipenv shell
+```
+
+```shell
+pyspelling -c spellcheck.yaml
+```
 
 ## Git Conventions:
 - **NB:** The main is locked and all changes must come through a Pull Request.
