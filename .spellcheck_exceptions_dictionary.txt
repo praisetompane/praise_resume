@@ -23,12 +23,9 @@ conventionalcommits
 
 # domain specific
 paragraphstyle
-
-# domain specific
-paragraphstyle
+Ochestration
 
 # legacy
-personal_ws-1.1 en 145
 APIs
 Abelian
 Affine

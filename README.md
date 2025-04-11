@@ -30,21 +30,13 @@ TexLive
 - The repository is configured to use [devcontainers](https://containers.dev) for development.
     - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 
-## Run Program
-
-```shell
-pipenv shell
-```
+## Build Resume
 
 ```shell
 make
 ```
 
 ## Spell Check
-```shell
-pipenv shell
-```
-
 ```shell
 pyspelling -c spellcheck.yaml
 ```
@@ -63,5 +55,4 @@ pyspelling -c spellcheck.yaml
 
 ## References:
 - Miyata, Y. [Fluency in a programming language](https://www.quora.com/What-level-of-fluency-in-a-programming-language-do-you-associate-with-labels-like-proficient-rudimentary-and-the-like)
-
 - posquit0. Awesome-CV. https://github.com/posquit0/Awesome-CV
