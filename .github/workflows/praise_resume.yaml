@@ -2,30 +2,30 @@ name: praise_resume
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check Repository
-      uses: actions/checkout@v4
-    - name: Spell Check
-      uses: rojopolis/spellcheck-github-actions@0.34.0
-      with:
-        task_name: English
-        output_file: spellcheck-output.txt
-    - name: build resume
-      uses: docker://ghcr.io/qjoly/xelatex:latest
-      with:
-        args: |
-          praise_tompane_resume.tex
-    - name: Setup Release Folder
-      run: mkdir -p ./release && cp praise_tompane_resume.pdf ./release
-    - name: Publish Document
-      uses: actions/upload-artifact@v4
-      with:
-        name: praise_tompane_resume.pdf
-        path: ./praise_tompane_resume.pdf
+      - name: Check Repository
+        uses: actions/checkout@v4
+      - name: Spell Check
+        uses: rojopolis/spellcheck-github-actions@0.34.0
+        with:
+          task_name: English
+          output_file: spellcheck-output.txt
+      - name: Build Resume
+        uses: docker://ghcr.io/qjoly/xelatex:latest
+        with:
+          args: |
+            resume.tex
+      - name: Setup Release Folder
+        run: mkdir -p ./release && cp resume.pdf ./release
+      - name: Publish Document
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume.pdf
+          path: ./resume.pdf
