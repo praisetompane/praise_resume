@@ -2,12 +2,12 @@
 ![build status](https://github.com/praisetompane/praise_resume/actions/workflows/praise_resume.yaml/badge.svg) <br>
 
 ## Objectives
-- Reusable and automated build of resume for consistency.
+- Reusable and automated build of Résumé for consistency.
 
 ## Proficiency Definitions:
 - ## Low Proficiency:
     - Have a basic understanding of how the language/platform/tool/concept/concept works.
-    - Can make things work by collaging code snippets together from external references such as Stack Overflow, Tutorials, etc.
+    - Can make things work by consulting code snippets together from external references such as Stack Overflow, Tutorials, etc.
 
 - ## Medium Proficiency:
     - Have a good understanding of what how language/platform/tool/concept works.
@@ -30,7 +30,7 @@ TexLive
 - The repository is configured to use [devcontainers](https://containers.dev) for development.
     - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 
-## Build Resume
+## Build Résumé
 
 ```shell
 make
